@@ -1,0 +1,40 @@
+\documentclass[language=deutsch, leftcolumnwidthmult=0.31,seperatorwidth=0.5in, 11pt, a4paper, overpass]{skillside-cv} 
+% language: loads language-specific content from 'content_<language>.tex>. Defaults to 'english'
+% leftcolumnwidth: factor from pagewidth used for left content bar (intended for skills)
+% seperatorwidth: margin from sidebar
+% font sizes: 10pt, 11pt, or 12pt; 
+% paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; 
+% font families: sans or roman, overpass*
+% * requires font in directory and compilation with XeLaTex/LuaLaTex
+% see README in font directory
+
+% mandatory base style
+\addstyle{base}
+
+% color palette
+\addstyle{aqua}
+
+
+% %----------------------------------------------------------------------------------------
+% %	NAME AND CONTACT INFORMATION SECTION
+% %----------------------------------------------------------------------------------------
+
+\firstname{Max}
+\familyname{Mustermann}
+
+% All information in this block is optional, comment out any lines you don't need
+% language specific information may be included/updated in language specific content file
+\title{Ingenieur}
+\address{Musterstr. 10}{10119 Berlin}
+\mobile{\Plus49 030 1111 1111}
+\email{max.mustermann@gmail.com}
+\linkedin{www.linkedin.com/in/max-mustermann}{in/max-mustermann}
+\git{www.github.com/mn89h}{mn89h}
+\carlicense{Klasse B}
+\photo{portrait} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+
+% NOT IMPLEMENTED
+% \quote{"That's a quote." - John Smith}
+% %----------------------------------------------------------------------------------------
+
+\input{content_\cvlanguage}
